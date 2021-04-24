@@ -54,6 +54,7 @@ export default class CreateStudent extends Component {
         <Form.Group controlId="Name">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" value={this.state.name} onChange={this.onChangeStudentName} />
+          
         </Form.Group>
 
         <Form.Group controlId="Email">
